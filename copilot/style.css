@@ -1,0 +1,199 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #afd6db;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: rgb(49, 216, 189);
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: rgb(192, 198, 159);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section Styling with Background Image */
+.hero {
+    background-image: url('hero-bg.jpg'); /* Set your hero background image */
+    background-size: cover;
+    background-position: center;
+    color: rgb(109, 67, 67);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e74c3c;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* About Section Styling with Image */
+#about {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color:  burlywood;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.about-text {
+    flex: 1;
+    font-size: 18px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    color: darkgoldenrod;
+}
+
+/* Services Section Styling */
+#services {
+    background-color: burlywood;
+}
+
+#services h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: chocolate;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: white;
+    padding: 30px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+}
+
+/* Contact Section Styling */
+#contact {
+    background-color:burlywood;
+    padding: 60px 20px;
+}
+
+#contact h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color:burlywood;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #a14040;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
