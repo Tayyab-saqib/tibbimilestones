@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Downloadable Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Downloadable Resume Builder</h1>
+    <form id="resumeForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" placeholder="Enter your phone number" required>
+
+      <label for="summary">Summary:</label>
+      <textarea id="summary" placeholder="Write a brief summary"></textarea>
+
+      <label for="skills">Skills (comma-separated):</label>
+      <input type="text" id="skills" placeholder="e.g., HTML, CSS, JavaScript">
+
+      <label for="experience">Experience:</label>
+      <textarea id="experience" placeholder="Describe your experience"></textarea>
+
+      <button type="button" id="generateResume">Generate Resume</button>
+      <button type="button" id="downloadResume">Download PDF</button>
+      <button type="button" id="shareResume">Share Link</button>
+    </form>
+
+    <div id="resumeOutput" class="resume-template">
+      <!-- Resume content will populate dynamically here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
